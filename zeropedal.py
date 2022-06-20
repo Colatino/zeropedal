@@ -10,6 +10,7 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 g1xfour=Effects()
+fontname="./FONT/VCR_OSD_MONO_1.001.ttf"
 
 # 128x32 display with hardware I2C:
 disp = Adafruit_SSD1306.SSD1306_128_32(rst=None)
@@ -40,7 +41,7 @@ for e in g1xfour.effects.keys():
     
     fontsize=32
     # Load font
-    font = ImageFont.truetype("vcrosd.ttf",fontsize)
+    font = ImageFont.truetype(fontname,fontsize)
 
     # Get effect name
     text=g1xfour.effects[e]["name"].upper()
@@ -49,7 +50,7 @@ for e in g1xfour.effects.keys():
     #Try the largest font possible (32 px)
     while lx > width or ly > height:
         fontsize-=2
-        font = ImageFont.truetype("vcrosd.ttf",fontsize)
+        font = ImageFont.truetype(fontname,fontsize)
         lx,ly=font.getsize(text)
     
     pos_x = ( width - lx ) / 2
