@@ -1,5 +1,7 @@
 import time
+
 import Adafruit_SSD1306
+from smbus import SMBus
 
 from g1xfour import Effects
 
@@ -7,14 +9,10 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-import subprocess
-
 g1xfour=Effects()
 
-RST = None     # on the PiOLED this pin isnt used
-
 # 128x32 display with hardware I2C:
-disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
+disp = Adafruit_SSD1306.SSD1306_128_32(rst=None)
 
 # Initialize display library
 disp.begin()
@@ -35,30 +33,32 @@ draw = ImageDraw.Draw(image)
 # Draw a black filled box to clear the image
 draw.rectangle((0,0,width,height), outline=0, fill=0)
 
-# Define some constants to allow easy resizing of shapes
-padding = 2
-top = padding
-bottom = height-padding
-# Move left to right keeping track of the current x position for drawing shapes.
-x = padding
+for e in g1xfour.effects.keys():
+    
+    # Draw a black filled box to clear the image
+    draw.rectangle((0,0,width,height), outline=0, fill=0)
+    
+    fontsize=32
+    # Load font
+    font = ImageFont.truetype("vcrosd.ttf",fontsize)
 
-# Load default font
-# font = ImageFont.load_default()
-font = ImageFont.truetype("vcrosd.ttf",24)
+    # Get effect name
+    text=g1xfour.effects[e]["name"].upper()
+    lx,ly=font.getsize(text)
+    
+    #Try the largest font possible (32 px)
+    while lx > width or ly > height:
+        fontsize-=2
+        font = ImageFont.truetype("vcrosd.ttf",fontsize)
+        lx,ly=font.getsize(text)
+    
+    pos_x = ( width - lx ) / 2
+    pos_y = ( height - ly ) / 2
+    draw.text((pos_x,pos_y),text,font=font,fill=255)
 
-# Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!
-# Some other nice fonts to try: http://www.dafont.com/bitmap.php
-# font = ImageFont.truetype('Minecraftia.ttf', 8)
-
-# Draw a black filled box to clear the image
-draw.rectangle((0,0,width,height), outline=0, fill=0)
-
-# Write two lines of text.
-text=g1xfour.effects[0]["name"].upper()
-lx,ly=font.getsize(text)
-draw.text((padding+(width-2*padding-lx)/2,top+(height-2*padding-ly)/2),text,font=font,fill=255)
-
-# Display image.
-disp.image(image)
-disp.display()
+    # Display image.
+    disp.image(image)
+    disp.display()
+    
+    time.sleep(0.1)
 
