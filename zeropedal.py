@@ -1,7 +1,9 @@
 import time
 
 import Adafruit_SSD1306
-from smbus import SMBus
+from Adafruit_GPIO import I2C
+
+# from smbus import SMBus
 
 import RPi.GPIO as PINS
 
@@ -13,14 +15,17 @@ from PIL import ImageFont
 
 switchPins={4:1,14:1,15:1,17:1,18:1}
 
-bus=SMBus(1)
-oleds=[0]
+#bus=SMBus(1)
+oleds=[0,1]
 
 g1xfour=Effects()
-curreffect=2
+curreffects=[16777232,16777248,0,0,0]
 effectstate=[1,1,1,1,1]
 
 fontname="./font/VCR_OSD_MONO_1.001.ttf"
+
+#TCA9548A
+tca=I2C.get_i2c_device(address=0x70)
 
 # 128x32 display with hardware I2C:
 disp = Adafruit_SSD1306.SSD1306_128_32(rst=None)
@@ -36,7 +41,7 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 def displayselect(idx):
-    bus.write_byte_data(0x70,idx,1)
+    tca.writeRaw8(1<<idx)
     
 def initdisplays():
     for o in oleds:
@@ -90,8 +95,8 @@ def switch_pressed_cb(pin):
     
     if switchPins[pin] and not PINS.input(pin):
         print("Pressed switch",switchpedal+1,"on pin",pin)
-        #curreffect=(curreffect+1)%len(g1xfour.effects)
-        text=g1xfour.effects[list(g1xfour.effects.keys())[curreffect]]["name"].upper()
+        #text=g1xfour.effects[list(g1xfour.effects.keys())[curreffect]]["name"].upper()
+        text=g1xfour.effects[curreffects[switchpedal]]["name"].upper()
         effectstate[switchpedal]=not effectstate[switchpedal]
         drawTextTo(switchpedal,text)
     
