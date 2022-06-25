@@ -56,12 +56,22 @@ class Patch:
         if not id==None:
             return self.ids.index(id)
     
-    def get_name(self,slot=None,id=None):
+    def get_slot(self,index=None,id=None):
+        if not index==None:
+            return self.slots[index]
+        
+        if not id==None:
+            return self.slots[self.ids,index(id)]
+
+    def get_name(self,slot=None,id=None,index=None):
         if not slot==None:
             return self.names[self.slots.index(slot)]
         
         if not id==None:
             return self.names[self.ids.index(id)]
+        
+        if not index==None:
+            return self.names[index]
                  
     def clear(self):
         self.names=[]
@@ -71,17 +81,32 @@ class Patch:
         self._cur_slot=0
         self._n_effects=0
     
-    def set_state(self,slot,state):
-        self.states[self.slots.index(slot)]=state
-    
+    def get_state(self,slot=None,index=None,id=None):
+        if not slot==None:
+            return self.states[self.slots.index(slot)]
+        
+        if not index==None:
+            return self.states[index]
+        
+        if not id==None:
+            return self.states[self.ids.index(slot)]
+
+    def set_state(self,state,slot=None,index=None,id=None):
+        if not slot==None:
+            self.states[self.slots.index(slot)]=state
+        
+        if not index==None:
+            self.states[index]=state
+
+        if not id==None:
+            self.states[self.ids.index(id)]=state
+
 class zoomzt2(object):
     midiname="ZOOM G"
     inport = None
     outport = None
     editor = False
     pcmode = False
-    bank=None
-    effect=None
     
     effects=Effects()
     patch=Patch()
