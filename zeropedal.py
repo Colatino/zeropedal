@@ -1,4 +1,4 @@
-import time
+from time import sleep
 
 from minizt2 import zoomzt2
 
@@ -54,6 +54,13 @@ class Controller:
             self.disp.image(self.image)
             self.disp.display()
 
+        text="Waiting"
+        font = ImageFont.truetype(self.fontname,28)  
+        lx,ly=font.getsize(text)
+        pos_x = ( self.width - lx ) / 2
+        pos_y = ( self.height - ly ) / 2
+
+
         PINS.setmode(PINS.BCM)
         for p in pins:
             PINS.setup(p,PINS.IN,pull_up_down=PINS.PUD_UP)
@@ -62,6 +69,31 @@ class Controller:
     def display_select(self,idx):
         self.tca.writeRaw8(1<<idx)
 
+    def draw_text(self,idx,text):
+        self.display_select(idx)
+        self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
+        fontsize=self.height
+        # Load font
+        font = ImageFont.truetype(self.fontname,fontsize)    
+        
+        #Try the largest font possible (32 px)
+        lx,ly=font.getsize(text)
+        while lx > self.width or ly > self.height:
+            #Reduce font size by 1 and check for text size
+            fontsize-=1
+            font = ImageFont.truetype(self.fontname,fontsize)
+            lx,ly=font.getsize(text)
+        
+        pos_x = ( self.width - lx ) / 2
+        pos_y = ( self.height - ly ) / 2
+        
+        # Effect name
+        self.draw.text((pos_x,pos_y),text,font=font,fill=255)
+            
+        # Display image.
+        self.disp.image(self.image)
+        self.disp.display()
+        
     def redraw(self,switch):
         self.display_select(self.oled_bus[switch])
         
@@ -134,8 +166,23 @@ if __name__=='__main__':
     oled_bus=[0,1]#,2,3,4]
 
     controller=Controller(switch_pins,oled_bus)
-
-
+    
+    controller.draw_text(0,"zeropedal")
+    controller.draw_text(1,"v 0.1")
+    
+    sleep(2)
+    
+    controller.draw_text(0,"Waiting")
+    controller.draw_text(1,"device")
+    
+    # Wait for device to connect
+    while not controller.pedal.is_connected():
+        if controller.pedal.connect():
+            controller.draw_text(0,"Loading")
+            controller.draw_text(1,"patch")
+            controller.pedal.editor_on()
+            controller.pedal.patch_download_current()
+    
     # Main loop
-    #while True:
-    #    pass
+    while True:
+        controller.pedal.task()

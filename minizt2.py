@@ -229,21 +229,29 @@ class zoomzt2(object):
     def clear_buffer(self):
         for m in self.inport.iter_pending():
             print(m)
-
+    
+    def task(self):
+        for m in self.inport.iter_pending():
+            if m.type=="program_change":
+                self.patch_download_current()
+                print("Changed to patch",self.patch.name)
+            elif m.type=="sysex":
+                if m.data[:5]==(82,0,110,100,3):
+                    print("Set effect",self.patch.get_name(slot=m.data[6]),"to","On" if m.data[8] else "Off")
+                    self.patch_download_current()      
+        
 if __name__ == '__main__':     
     zoom=zoomzt2()
-    zoom.connect()
+    
+    # Wait for device to connect
+    while not zoom.is_connected():
+        if zoom.connect():
+            print ("Device connected")
+            
     zoom.editor_on()
     zoom.patch_download_current()
     
     while True:
-        for m in zoom.inport.iter_pending():
-            if m.type=="program_change":
-                zoom.patch_download_current()
-                print("Changed to patch",zoom.patch.name)
-            elif m.type=="sysex":
-                if m.data[:5]==(82,0,110,100,3):
-                    print("Set effect",zoom.patch.get_name(slot=m.data[6]),"to","On" if m.data[8] else "Off")
-                    zoom.patch_download_current()
+        zoom.task()
                     
     zoom.disconnect()
