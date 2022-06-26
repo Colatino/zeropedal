@@ -1,5 +1,6 @@
 import mido
 from g1xfour import effects
+import time
 
 class Effects:
     effects={}
@@ -42,14 +43,18 @@ class Patch:
     slots=[]
     states=[]
         
-    def add_effect(self,id,state,effects):
+    def add_effect(self,id,state,effects,debug=None):
         self.names.append(effects.get_name(id))
         self.ids.append(id)
         self.slots.append(self._cur_slot)
         self._cur_slot+=effects.get_size(id)
         self._n_effects+=1
+        if not debug==None:
+            debug(0,effects.get_name(id))
+            debug(1,str(id))
+            time.sleep(1)
     
-    def get_index(self,slot=None,id=None):
+    def get_index(self,slot=None,id=None,debug=None):
         if not slot==None:
             return self.slots.index(slot)
         
@@ -106,25 +111,28 @@ class zoomzt2(object):
     inport = None
     outport = None
     editor = False
-    pcmode = False
     
     effects=Effects()
     patch=Patch()
 
     def is_connected(self):
         if self.inport == None or self.outport == None:
-            return(False)
+            return False
         else:
-            return(True)
+            return True
 
-    def connect(self, midiskip = 0):
+    def connect(self, debug=None):
         for port in mido.get_input_names():
             if port[:len(self.midiname)]==self.midiname:
+                if not debug==None:
+                    debug(0,port)
                 self.inport = mido.open_input(port)
                 break
                 
         for port in mido.get_output_names():
             if port[:len(self.midiname)]==self.midiname:
+                if not debug==None:
+                    debug(1,port)
                 self.outport = mido.open_output(port)
                 break
 
@@ -133,8 +141,6 @@ class zoomzt2(object):
         return(True)
 
     def disconnect(self):
-        if self.pcmode:
-            self.pcmode_off()
         if self.editor:
             self.editor_off()
         
@@ -142,18 +148,6 @@ class zoomzt2(object):
         self.inport = None
         self.outport.close()
         self.outport = None
-
-    def pcmode_on(self):
-        # Enable PC Mode
-        msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x52])
-        self.outport.send(msg); msg = self.inport.receive()
-        self.pcmode = True
-
-    def pcmode_off(self):
-        # Disable PC Mode
-        msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x53])
-        self.outport.send(msg); msg = self.inport.receive()
-        self.pcmode = False
 
     def editor_on(self):
         # Enable Editor Mode
@@ -193,23 +187,21 @@ class zoomzt2(object):
                 loop = 6
         return(data)
     
-    def parse_patch(self,data):
+    def parse_patch(self,data,debug=None):
         self.patch.clear()
         self.patch.name=data[26:36].rstrip().decode("utf-8")
         edtb=data.split(b'EDTB')[1].split(b'PPRM')[0]
-        effects={'id':[],'st':[]}
         neff=int(edtb[0]/24)
         
         for i in range(neff):    
             bits=''        
             union=edtb[7+i*24]<<24 | edtb[6+i*24]<<16 | edtb[5+i*24]<<8 | edtb[4+i*24]
             id=(union>>1) & 0xfffffff
-            self.patch.add_effect(id,union & 1,self.effects)
-        
-        if self.patch._n_effects == neff:
-            return True
+            self.patch.add_effect(id,union & 1,self.effects,debug)
+
+        return True
               
-    def patch_download_current(self):
+    def patch_download_current(self,debug=None):
         msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x29])
         
         self.clear_buffer()
@@ -220,11 +212,10 @@ class zoomzt2(object):
         while True:
             if msg:
                 if msg.type=="sysex":
-                    
                     packet = msg.data
                     data = self.unpack(packet[4:])
                     if b"PTCF" in data:
-                        return self.parse_patch(data)
+                        return self.parse_patch(data,debug)
             
             msg = self.inport.receive()
         
