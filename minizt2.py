@@ -205,6 +205,9 @@ class zoomzt2(object):
             union=edtb[7+i*24]<<24 | edtb[6+i*24]<<16 | edtb[5+i*24]<<8 | edtb[4+i*24]
             id=(union>>1) & 0xfffffff
             self.patch.add_effect(id,union & 1,self.effects)
+        
+        if self.patch._n_effects == neff:
+            return True
               
     def patch_download_current(self):
         msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x29])
@@ -221,8 +224,7 @@ class zoomzt2(object):
                     packet = msg.data
                     data = self.unpack(packet[4:])
                     if b"PTCF" in data:
-                        self.parse_patch(data)
-                        break
+                        return self.parse_patch(data)
             
             msg = self.inport.receive()
         

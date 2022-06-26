@@ -70,43 +70,9 @@ class Controller:
         self.tca.writeRaw8(1<<idx)
 
     def draw_text(self,idx,text):
-        self.display_select(idx)
-        self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
-        fontsize=self.height
-        # Load font
-        font = ImageFont.truetype(self.fontname,fontsize)    
-        
-        #Try the largest font possible (32 px)
-        lx,ly=font.getsize(text)
-        while lx > self.width or ly > self.height:
-            #Reduce font size by 1 and check for text size
-            fontsize-=1
-            font = ImageFont.truetype(self.fontname,fontsize)
-            lx,ly=font.getsize(text)
-        
-        pos_x = ( self.width - lx ) / 2
-        pos_y = ( self.height - ly ) / 2
-        
-        # Effect name
-        self.draw.text((pos_x,pos_y),text,font=font,fill=255)
-            
-        # Display image.
-        self.disp.image(self.image)
-        self.disp.display()
-        
-    def redraw(self,switch):
-        self.display_select(self.oled_bus[switch])
-        
-        # Draw a black filled box to clear the image
-        self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
-        
-        # Draw the bypass line
-        self.draw.rectangle((0,self.height/2-4,self.width,self.height/2+4),outline=0,fill=1,width=2)
-        
-        # Get effect name linked to the pressed switch
-        text=self.pedal.patch.get_name(index=switch)
-
-        if not text=="BYPASS":
+        if idx < len(self.oled_bus):
+            self.display_select(idx)
+            self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
             fontsize=self.height
             # Load font
             font = ImageFont.truetype(self.fontname,fontsize)    
@@ -121,20 +87,56 @@ class Controller:
             
             pos_x = ( self.width - lx ) / 2
             pos_y = ( self.height - ly ) / 2
-
-            # Black container
-            self.draw.rectangle((pos_x,pos_y,pos_x+lx,pos_y+ly),outline=0,fill=0)
             
             # Effect name
             self.draw.text((pos_x,pos_y),text,font=font,fill=255)
-
-            # Draw bypass line after the name if disabled            
-            if not self.pedal.patch.states[switch]:
-                self.draw.rectangle((0,self.height/2-4,self.width,self.height/2+4),outline=0,fill=1,width=2)
+                
+            # Display image.
+            self.disp.image(self.image)
+            self.disp.display()
+        
+    def redraw(self,switch):
+        if switch < len(self.oled_bus):
+            self.display_select(self.oled_bus[switch])
             
-        # Display image.
-        self.disp.image(self.image)
-        self.disp.display()
+            # Draw a black filled box to clear the image
+            self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
+            
+            # Draw the bypass line
+            self.draw.rectangle((0,self.height/2-4,self.width,self.height/2+4),outline=0,fill=1,width=2)
+            
+            # Get effect name linked to the pressed switch
+            text=self.pedal.patch.get_name(index=switch)
+
+            if not text=="BYPASS":
+                fontsize=self.height
+                # Load font
+                font = ImageFont.truetype(self.fontname,fontsize)    
+                
+                #Try the largest font possible (32 px)
+                lx,ly=font.getsize(text)
+                while lx > self.width or ly > self.height:
+                    #Reduce font size by 1 and check for text size
+                    fontsize-=1
+                    font = ImageFont.truetype(self.fontname,fontsize)
+                    lx,ly=font.getsize(text)
+                
+                pos_x = ( self.width - lx ) / 2
+                pos_y = ( self.height - ly ) / 2
+
+                # Black container
+                self.draw.rectangle((pos_x,pos_y,pos_x+lx,pos_y+ly),outline=0,fill=0)
+                
+                # Effect name
+                self.draw.text((pos_x,pos_y),text,font=font,fill=255)
+
+                # Draw bypass line after the name if disabled            
+                if not self.pedal.patch.states[switch]:
+                    self.draw.rectangle((0,self.height/2-4,self.width,self.height/2+4),outline=0,fill=1,width=2)
+                
+            # Display image.
+            self.disp.image(self.image)
+            self.disp.display()
     
     def switch_pressed_cb(self,pin):
         global curreffect,effectstate
@@ -181,7 +183,9 @@ if __name__=='__main__':
             controller.draw_text(0,"Loading")
             controller.draw_text(1,"patch")
             controller.pedal.editor_on()
-            controller.pedal.patch_download_current()
+            if controller.pedal.patch_download_current():
+                for i,e in enumerate(controller.patch.names):
+                    controller.redraw(i)
     
     # Main loop
     while True:
