@@ -215,9 +215,9 @@ if __name__=='__main__':
     
     loaded=time.perf_counter()
     controller.draw_text(0,"zeropedal v 0.1")
-    
-    controller.draw_text(1,"Init took "+str(round(loaded,2))+" s")
-    time.sleep(1)
+    time.sleep(.5)
+    controller.draw_text(0,"Init took "+str(round(loaded,2))+" s")
+    time.sleep(.5)
     
     controller.draw_text(0,"Waiting")
     
