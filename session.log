@@ -1,0 +1,3333 @@
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch on pin 19 pressed before initialization is complete
+INFO:root:switch on pin 19 pressed before initialization is complete
+INFO:root:switch on pin 16 pressed before initialization is complete
+INFO:root:switch on pin 16 pressed before initialization is complete
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 3 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 3 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 3 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 246, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 251, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 251, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 251, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 251, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch LEAD
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch Acustico
+INFO:root:error while performing task
+ERROR:root:module 'logging' has no attribute 'indo'
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+AttributeError: module 'logging' has no attribute 'indo'
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:switch 3 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:error while performing task
+ERROR:root:name 'slot' is not defined
+Traceback (most recent call last):
+  File "/home/pi/zeropedal/minizt2.py", line 252, in task
+    logging.info("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+NameError: name 'slot' is not defined
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:toggle effect on slot 2 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:switch 3 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:toggle effect on slot 1 to On
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:toggle effect on slot 1 to On
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch LEAD
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch Acustico
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect on slot 10 to On
+INFO:root:downloading current patch
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 2 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 3 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect on slot 10 to Off
+INFO:root:downloading current patch
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
+INFO:root:opening ports on device ZOOM G Series:ZOOM G Series MIDI 1 20:0
+INFO:root:Connected
+INFO:root:display 0 selected
+INFO:root:editor mode on
+INFO:root:display 1 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:controller initialized
+INFO:root:starting main loop
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 1 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 0 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 1 to On
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch LEAD
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch Acustico
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:display 3 selected
+INFO:root:switch 1 pressed
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:switch 2 pressed
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:display 2 selected
+INFO:root:switch 4 pressed
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 off
+INFO:root:toggle effect 0 off
+INFO:root:display 0 selected
+INFO:root:toggle effect on slot 0 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 0 pressed
+INFO:root:effect on slot 0 on
+INFO:root:toggle effect 0 on
+INFO:root:display 0 selected
+INFO:root:switch 0 pressed
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 off
+INFO:root:toggle effect 1 off
+INFO:root:display 1 selected
+INFO:root:toggle effect on slot 1 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 1 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 1 pressed
+INFO:root:effect on slot 1 on
+INFO:root:toggle effect 1 on
+INFO:root:display 1 selected
+INFO:root:switch 1 pressed
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 off
+INFO:root:toggle effect 2 off
+INFO:root:display 2 selected
+INFO:root:toggle effect on slot 2 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 2 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 2 pressed
+INFO:root:effect on slot 2 on
+INFO:root:toggle effect 2 on
+INFO:root:display 2 selected
+INFO:root:switch 2 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:toggle effect on slot 5 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 4 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 off
+INFO:root:toggle effect 4 off
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 4 pressed
+INFO:root:effect on slot 5 on
+INFO:root:toggle effect 4 on
+INFO:root:display 4 selected
+INFO:root:switch 4 pressed
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 off
+INFO:root:toggle effect 3 off
+INFO:root:display 3 selected
+INFO:root:toggle effect on slot 3 to Off
+INFO:root:downloading current patch
+INFO:root:got patch Acustico now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:display 0 selected
+INFO:root:switch 3 pressed
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:switch 3 pressed
+INFO:root:effect on slot 3 on
+INFO:root:toggle effect 3 on
+INFO:root:display 3 selected
+INFO:root:switch 3 pressed
+INFO:root:downloading current patch
+INFO:root:got patch LEAD now parsing
+INFO:root:parse completed, patch has 5 effects
+INFO:root:changed to patch LEAD
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 2 selected
+INFO:root:display 3 selected
+INFO:root:display 4 selected
+INFO:root:######## NEW SESSION ########
+INFO:root:Running under linux
+INFO:root:pedal effects catalog read
+INFO:root:Libraries loaded
+INFO:root:init main
+INFO:root:initializing controller
+INFO:root:initializing pedal
+INFO:root:pedal initialized successfuly
+INFO:root:multiplexer initialized
+INFO:root:display handler initialized
+INFO:root:draw object initialized
+INFO:root:displays initialized
+INFO:root:foot switch callbacks initialized
+INFO:root:display 0 selected
+INFO:root:display 1 selected
+INFO:root:display 0 selected
+INFO:root:searching for compatible devices...
