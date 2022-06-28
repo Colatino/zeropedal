@@ -4,7 +4,7 @@ import sys
 import logging
 
 logging.basicConfig(filename='session.log', level=logging.INFO)
-
+logging.info("######## NEW SESSION ########")
 linux=False
 if sys.platform =='linux':
     linux=True
@@ -12,7 +12,7 @@ if sys.platform =='linux':
     from Adafruit_GPIO import I2C
     import RPi.GPIO as PINS
 
-logging.info("Running under"+sys.platform)
+logging.info("Running under "+sys.platform)
 
 from PIL import Image
 from PIL import ImageDraw
@@ -209,6 +209,7 @@ class Controller:
                 self._switch_state[index]=cur_state
             else:
                 logging.info("switch pressed before initialization is complete")
+                
         except Exception as e:
             self.draw_text(1,str(e))
             logging.error("error while handling callback for switch on pin: "+str(pin))
@@ -246,8 +247,9 @@ if __name__=='__main__':
             time.sleep(0.5)
             for n in range(controller.pedal.patch._n_effects):
                 controller.redraw(n)
-            controller.init_done=True
-            
+    logging.info("controller initialization complete")
+    controller.init_done=True
+    logging.indo("running main loop")
     # Main loop
-    #while controller.init_done:
-    #    controller.pedal.task()
+    while True:
+        controller.pedal.task()

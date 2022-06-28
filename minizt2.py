@@ -122,7 +122,7 @@ class zoomzt2(object):
     def connect(self):
         for port in mido.get_input_names():
             if port[:len(self.midiname)]==self.midiname:
-                logging.info("oppening ports on device "+port)
+                logging.info("opening ports on device "+port)
                 self.inport = mido.open_input(port)
                 self.outport = mido.open_output(port)
                 break
@@ -198,7 +198,7 @@ class zoomzt2(object):
                 union=edtb[7+i*24]<<24 | edtb[6+i*24]<<16 | edtb[5+i*24]<<8 | edtb[4+i*24]
                 id=(union>>1) & 0xfffffff
                 self.patch.add_effect(id,union & 1,self.effects)
-
+            logging.info("parse completed, patch has "+str(self.patch._n_effects)+" effects")
             return True
         except Exception as e:
             logging.info("Error while parsing patch")
@@ -223,6 +223,7 @@ class zoomzt2(object):
                             return self.parse_patch(data)
                 
                 msg = self.inport.receive()
+            logging.info("download successful")
         except Exception as e:
             logging.info("error downloading current patch")
             logging.exception(e)
