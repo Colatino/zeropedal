@@ -18,6 +18,7 @@ from minizt2 import zoomzt2
 class Controller:
     fontname="./font/VCR_OSD_MONO_1.001.ttf"
     init_done=False
+    need_redraw=False
     def __init__(self,pins=[],oleds=[],address=0x70,width=128,height=32):
         #Footpedal switch pins
         self.switch_pins=pins
@@ -58,6 +59,7 @@ class Controller:
                 self.disp.clear()
                 self.disp.image(self.image)
                 self.disp.display()
+                self.display_select_none()
 
             text="Waiting"
             self.font = ImageFont.truetype(self.fontname,28)  
@@ -72,7 +74,10 @@ class Controller:
             
     def display_select(self,idx):
         self.tca.writeRaw8(1<<idx)
-            
+    
+    def display_select_none(self):
+        self.tca.writeRaw8(0)
+        
     def draw_text(self,idx,text):
         try:
             if idx < len(self.oled_bus) and linux:
@@ -120,6 +125,7 @@ class Controller:
                 # Display image.
                 self.disp.image(self.image)
                 self.disp.display()
+                self.display_select_none()
             else:
                 print(text)
         except:
@@ -128,7 +134,7 @@ class Controller:
     def redraw(self,switch):
         try:
             if linux and switch < len(self.oled_bus):
-                self.display_select(self.oled_bus[switch])
+                print(switch)
                 # Draw a black filled box to clear the image
                 self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
                 # Draw the bypass line
@@ -157,9 +163,12 @@ class Controller:
                     # Draw bypass line after the name if disabled
                     if not self.pedal.patch.states[switch]:
                         self.draw.rectangle((0,self.height/2-4,self.width,self.height/2+4),outline=0,fill=1,width=2)   
-                # Display image.
+                # Display image
+                self.display_select(self.oled_bus[switch])
+                self.disp.clear()
                 self.disp.image(self.image)
                 self.disp.display()
+                self.display_select_none()
                 return True
             else:
                 text=self.pedal.patch.get_name(index=switch)
@@ -197,6 +206,7 @@ class Controller:
                             self.redraw(index)
                 
                 self._switch_state[index]=cur_state
+                #self.refresh_model()
             else:
                 pass
                 
@@ -208,8 +218,8 @@ if __name__=='__main__':
     # Pins connected to the foot switches
     switch_pins=[19,16,26,20,21]
     
-    # Buses used for the oled displays
-    oled_bus=[0,1,2,3,4]
+    # Buses on the multiplexer used to control the oled displays
+    oled_bus=[6,5,4,3,2]
 
     controller=Controller(switch_pins,oled_bus)
     
