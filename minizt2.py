@@ -1,6 +1,7 @@
 import mido
 from g1xfour import effects
 import time
+import logging
 
 class Effects:
     effects={}
@@ -43,18 +44,15 @@ class Patch:
     slots=[]
     states=[]
         
-    def add_effect(self,id,state,effects,debug=None):
-        self.names.append(effects.get_name(id))
+    def add_effect(self,id,state,effects):
         self.ids.append(id)
+        self.states.append(state)
+        self.names.append(effects.get_name(id))        
         self.slots.append(self._cur_slot)
         self._cur_slot+=effects.get_size(id)
         self._n_effects+=1
-        if not debug==None:
-            debug(0,effects.get_name(id))
-            debug(1,str(id))
-            time.sleep(1)
-    
-    def get_index(self,slot=None,id=None,debug=None):
+        
+    def get_index(self,slot=None,id=None):
         if not slot==None:
             return self.slots.index(slot)
         
@@ -121,26 +119,21 @@ class zoomzt2(object):
         else:
             return True
 
-    def connect(self, debug=None):
+    def connect(self):
         for port in mido.get_input_names():
             if port[:len(self.midiname)]==self.midiname:
-                if not debug==None:
-                    debug(0,port)
+                logging.info("oppening ports on device "+port)
                 self.inport = mido.open_input(port)
-                break
-                
-        for port in mido.get_output_names():
-            if port[:len(self.midiname)]==self.midiname:
-                if not debug==None:
-                    debug(1,port)
                 self.outport = mido.open_output(port)
                 break
 
         if self.inport == None or self.outport == None:
-            return(False)
-        return(True)
+            return False
+        logging.info("Connected")
+        return True
 
     def disconnect(self):
+        logging.info("disconnecting")
         if self.editor:
             self.editor_off()
         
@@ -150,22 +143,26 @@ class zoomzt2(object):
         self.outport = None
 
     def editor_on(self):
+        logging.info("editor mode on")
         # Enable Editor Mode
         msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x50])
         self.outport.send(msg); msg = self.inport.receive()
         self.editor = True
 
     def editor_off(self):
+        logging.info("editor mode off")
         # Disable Editor Mode
         msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x51])
         self.outport.send(msg); msg = self.inport.receive()
         self.editor = False
     
     def effect_on(self,slot):
+        logging.info("effect on slot "+str(slot)+" on")
         msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x02 ,0x00 ,0x00 ,0x00])
         self.outport.send(msg); msg = self.inport.receive()
 
     def effect_off(self,slot):
+        logging.info("effect on slot "+str(slot)+" off")
         msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x00 ,0x00 ,0x00 ,0x00])
         self.outport.send(msg); msg = self.inport.receive()
         
@@ -187,52 +184,67 @@ class zoomzt2(object):
                 loop = 6
         return(data)
     
-    def parse_patch(self,data,debug=None):
-        self.patch.clear()
-        self.patch.name=data[26:36].rstrip().decode("utf-8")
-        edtb=data.split(b'EDTB')[1].split(b'PPRM')[0]
-        neff=int(edtb[0]/24)
-        
-        for i in range(neff):    
-            bits=''        
-            union=edtb[7+i*24]<<24 | edtb[6+i*24]<<16 | edtb[5+i*24]<<8 | edtb[4+i*24]
-            id=(union>>1) & 0xfffffff
-            self.patch.add_effect(id,union & 1,self.effects,debug)
+    def parse_patch(self,data):
+        try:
+            self.patch.clear()
+            self.patch.name=data[26:36].rstrip().decode("utf-8")
 
-        return True
-              
-    def patch_download_current(self,debug=None):
-        msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x29])
-        
-        self.clear_buffer()
-        
-        self.outport.send(msg); msg = self.inport.receive()
-
-        # decode received data
-        while True:
-            if msg:
-                if msg.type=="sysex":
-                    packet = msg.data
-                    data = self.unpack(packet[4:])
-                    if b"PTCF" in data:
-                        return self.parse_patch(data,debug)
+            edtb=data.split(b'EDTB')[1].split(b'PPRM')[0]
+            neff=int(edtb[0]/24)
+            logging.info("got patch "+self.patch.name+" now parsing")
             
-            msg = self.inport.receive()
+            for i in range(neff):    
+                bits=''        
+                union=edtb[7+i*24]<<24 | edtb[6+i*24]<<16 | edtb[5+i*24]<<8 | edtb[4+i*24]
+                id=(union>>1) & 0xfffffff
+                self.patch.add_effect(id,union & 1,self.effects)
+
+            return True
+        except Exception as e:
+            logging.info("Error while parsing patch")
+            logging.exception(e)
+              
+    def patch_download_current(self):
+        logging.info("downloading current patch")
+        try:
+            msg = mido.Message("sysex", data = [0x52, 0x00, 0x6e, 0x29])
+        
+            self.clear_buffer()
+            
+            self.outport.send(msg); msg = self.inport.receive()
+
+            # decode received data
+            while True:
+                if msg:
+                    if msg.type=="sysex":
+                        packet = msg.data
+                        data = self.unpack(packet[4:])
+                        if b"PTCF" in data:
+                            return self.parse_patch(data)
+                
+                msg = self.inport.receive()
+        except Exception as e:
+            logging.info("error downloading current patch")
+            logging.exception(e)
         
     def clear_buffer(self):
         for m in self.inport.iter_pending():
             print(m)
     
     def task(self):
-        for m in self.inport.iter_pending():
-            if m.type=="program_change":
-                self.patch_download_current()
-                print("Changed to patch",self.patch.name)
-            elif m.type=="sysex":
-                if m.data[:5]==(82,0,110,100,3):
-                    print("Set effect",self.patch.get_name(slot=m.data[6]),"to","On" if m.data[8] else "Off")
-                    self.patch_download_current()      
-        
+        try:
+            for m in self.inport.iter_pending():
+                if m.type=="program_change":
+                    self.patch_download_current()
+                    logging.info("Changed to patch "+self.patch.name)
+                elif m.type=="sysex":
+                    if m.data[:5]==(82,0,110,100,3):
+                        logging.indo("toggle effect on slot "+str(slot)+" to "+("On" if m.data[8] else "Off"))
+                        self.patch_download_current()      
+        except Exception as e:
+            logging.info("error while performing task")
+            logging.exception(e)
+            
 if __name__ == '__main__':     
     zoom=zoomzt2()
     
