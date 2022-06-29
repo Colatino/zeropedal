@@ -25,7 +25,6 @@ class Footswitch:
         PINS.setup(pin,PINS.IN,pull_up_down=PINS.PUD_UP)
         
     def callback(self,pin):
-        print(self.pin,self.id)
         if not PINS.input(pin):
             q.put(self.id)
 
@@ -191,28 +190,6 @@ class Controller:
     def refresh_model(self):
         for n in range(self.pedal.patch._n_effects):
             self.redraw(n)
-
-    def switch_pressed_cb(self,pin):
-        cur_state=PINS.input(pin)
-        try:
-            if self.init_done:
-                index=self.switch_pins.index(pin)
-                print("switch",index,"state",cur_state)
-                # Check if last state was HIGH and current state is LOW (switch pressed)
-                if not cur_state:
-                    # Toggle effect state
-                    if self.pedal.patch.get_state(index=index):
-                        if self.pedal.effect_off(self.pedal.patch.get_slot(index=index)):
-                            self.pedal.patch.set_state(0,index=index)
-                            # Draw state to display
-                            self.redraw(index)
-                    else:
-                        if self.pedal.effect_on(self.pedal.patch.get_slot(index=index)):
-                            self.pedal.patch.set_state(1,index=index)
-                            # Draw state to display
-                            self.redraw(index)
-        except:
-            pass
             
 if __name__=='__main__':
     
@@ -253,24 +230,23 @@ if __name__=='__main__':
     
     # Main loop
     while True:
-        #Resolve queued tasks
-        while not q.empty():
-            try:
+        try:
+            #Resolve queued tasks
+            while not q.empty():
                 index=None
                 index=q.get_nowait()
                 if not index==None:
-                    controller.pedal.patch.toggle_effect(index=index)
+                    controller.pedal.toggle_effect(index=index)
                     controller.redraw(index)
-            except:
-                pass
-
-        #Check pedal
-        res,data=controller.pedal.task()
-        if res:
-            controller.refresh_model()
-        else:
-            if not data==None:
-                slot=data[0]
-                index=controller.pedal.patch.get_index(slot=slot)
-                controller.pedal.patch.states[index]=data[1]
-                controller.redraw(index)
+            #Check pedal
+            res,data=controller.pedal.task()
+            if res:
+                controller.refresh_model()
+            else:
+                if not data==None:
+                    slot=data[0]
+                    index=controller.pedal.patch.get_index(slot=slot)
+                    controller.pedal.patch.states[index]=data[1]
+                    controller.redraw(index)
+        except Exception as e:
+            print(str(e))

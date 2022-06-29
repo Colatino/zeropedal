@@ -157,12 +157,15 @@ class zoomzt2(object):
         self.editor = False
     
     def toggle_effect(self,slot=None,index=None):
+
         if not index==None:
+            if index > len(self.patch.slots):return [False,None]
             slot=self.patch.get_slot(index=index)
-        
+
         if not slot==None:
+            if not slot in self.patch.slots:return [False,None]
             index=self.patch.get_index(slot=slot)
-        
+      
         if not self.patch.ids[index] == 0:
             state=self.patch.get_state(index=index)
             if not state:
@@ -238,14 +241,20 @@ class zoomzt2(object):
         try:
             for m in self.inport.iter_pending():
                 if m.type=="program_change":
-                    print(m)
                     self.patch_download_current()
                     return [True,None]
                 elif m.type=="sysex":
-                    if m.data[:5]==(82,0,110,100,3):
-                        slot=m.data[6]
-                        state=m.data[8]
-                        return [False,[slot,state]]
+                    if m.data[:4]==(82,0,110,100):
+                        if m.data[4]==(3):
+                            slot=m.data[6]
+                            state=m.data[8]
+                            return [False,[slot,state]]
+                        elif m.data[4]==(18):
+                            self.patch_download_current()
+                            return [True,None]
+                        else:
+                            print(m.data)
+                            return [False,None]
             return [False,None]
         except:
             return [False,None]
