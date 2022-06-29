@@ -20,9 +20,9 @@ The code is written in Python (tested on 3.7 and 3.9) and is largely based and i
 
 ## DEPENDENCIES
 This project makes use of the following:
-A deprecated [Adafruit Python SSD1306 library](https://github.com/adafruit/Adafruit_Python_SSD1306) and its dependencies
-[MIDO](https://mido.readthedocs.io/en/latest/) and its dependencies
-[VCR OSD MONO font](https://www.dafont.com/vcr-osd-mono.font)  by [Riciery Leal](https://www.dafont.com/mrmanet.d5509)
+- A deprecated [Adafruit Python SSD1306 library](https://github.com/adafruit/Adafruit_Python_SSD1306) and its dependencies
+- [MIDO](https://mido.readthedocs.io/en/latest/) and its dependencies
+- [VCR OSD MONO font](https://www.dafont.com/vcr-osd-mono.font)  by [Riciery Leal](https://www.dafont.com/mrmanet.d5509)
 
 ### TODO list
 [] Design and print case
