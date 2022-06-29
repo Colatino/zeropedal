@@ -200,20 +200,18 @@ if __name__=='__main__':
     oled_bus=[6,5,4,3,2]
 
     controller=Controller(switch_pins,oled_bus)
-    
     loaded=time.perf_counter()
     controller.draw_text(0,"zeropedal v 0.1")
     time.sleep(.5)
     controller.draw_text(0,"Init took "+str(round(loaded,2))+" s")
     time.sleep(.5)
-    
     controller.draw_text(0,"Waiting")
     
     # Wait for device to connect
     while not controller.pedal.connected:
         if controller.pedal.connect():
             break
-            
+    print("connected")            
     controller.draw_text(0,"Connected")
     controller.pedal.editor_on()
     controller.draw_text(1,"Loading patch...")

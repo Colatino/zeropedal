@@ -131,7 +131,8 @@ class zoomzt2(object):
                 return False
             self.connected = True
             return True
-        except:
+        except Exception as e:
+            print(str(e))
             return False
 
     def disconnect(self):
