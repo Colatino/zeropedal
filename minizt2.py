@@ -120,16 +120,19 @@ class zoomzt2(object):
             return True
 
     def connect(self):
-        for port in mido.get_input_names():
-            if port[:len(self.midiname)]==self.midiname:
-                self.inport = mido.open_input(port)
-                self.outport = mido.open_output(port)
-                break
+        try:
+            for port in mido.get_input_names():
+                if port[:len(self.midiname)]==self.midiname:
+                    self.inport = mido.open_input(port)
+                    self.outport = mido.open_output(port)
+                    break
 
-        if self.inport == None or self.outport == None:
+            if self.inport == None or self.outport == None:
+                return False
+            self.connected = True
+            return True
+        except:
             return False
-        self.connected = True
-        return True
 
     def disconnect(self):
         if self.editor:
@@ -153,19 +156,23 @@ class zoomzt2(object):
         self.outport.send(msg); msg = self.inport.receive()
         self.editor = False
     
-    def effect_on(self,slot):
-        if not self.patch.ids[self.patch.get_index(slot=slot)] == 0:
-            msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x02 ,0x00 ,0x00 ,0x00])
+    def toggle_effect(self,slot=None,index=None):
+        if not index==None:
+            slot=self.patch.get_slot(index=index)
+        
+        if not slot==None:
+            index=self.patch.get_index(slot=slot)
+        
+        if not self.patch.ids[index] == 0:
+            state=self.patch.get_state(index=index)
+            if not state:
+                msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x02 ,0x00 ,0x00 ,0x00])
+            else:
+                msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x00 ,0x00 ,0x00 ,0x00])
             self.outport.send(msg); msg = self.inport.receive()
-            return True
-        return False
-
-    def effect_off(self,slot):
-        if not self.patch.ids[self.patch.get_index(slot=slot)] == 0:
-            msg=mido.Message('sysex',data=[0x52 ,0x00 ,0x6E ,0x64 ,0x03 ,0x00 ,slot ,0x00 ,0x00 ,0x00 ,0x00 ,0x00 ,0x00])
-            self.outport.send(msg); msg = self.inport.receive()
-            return True
-        return False
+            state=not state
+            self.patch.set_state(state,index=index)
+            return [True,state]
 
     def unpack(self, packet):
         # Unpack data 7bit to 8bit, MSBs in first byte
@@ -231,17 +238,18 @@ class zoomzt2(object):
         try:
             for m in self.inport.iter_pending():
                 if m.type=="program_change":
+                    print(m)
                     self.patch_download_current()
-                    return True
+                    return [True,None]
                 elif m.type=="sysex":
                     if m.data[:5]==(82,0,110,100,3):
                         slot=m.data[6]
-                        self.patch_download_current()
-                        return True
-            return False
+                        state=m.data[8]
+                        return [False,[slot,state]]
+            return [False,None]
         except:
-            return False
-            
+            return [False,None]
+          
 if __name__ == '__main__':     
     zoom=zoomzt2()
     

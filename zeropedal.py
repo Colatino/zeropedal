@@ -1,6 +1,9 @@
 import time
 import math
 import sys
+import queue
+
+q=queue.Queue()
 
 linux=False
 if sys.platform =='linux':
@@ -15,6 +18,17 @@ from PIL import ImageFont
 
 from minizt2 import zoomzt2
 
+class Footswitch:
+    def __init__(self,pin,id):
+        self.pin=pin
+        self.id=id
+        PINS.setup(pin,PINS.IN,pull_up_down=PINS.PUD_UP)
+        
+    def callback(self,pin):
+        print(self.pin,self.id)
+        if not PINS.input(pin):
+            q.put(self.id)
+
 class Controller:
     fontname="./font/VCR_OSD_MONO_1.001.ttf"
     init_done=False
@@ -22,11 +36,9 @@ class Controller:
     def __init__(self,pins=[],oleds=[],address=0x70,width=128,height=32):
         #Footpedal switch pins
         self.switch_pins=pins
-    
-        self._switch_state=[]
-        for p in pins:
-            self._switch_state.append(1)
-            
+        
+        self.switches=[]
+        
         self.pedal=zoomzt2()
         
         if linux:        
@@ -68,9 +80,8 @@ class Controller:
             pos_y = ( self.height - ly ) / 2
 
             PINS.setmode(PINS.BCM)
-            for p in pins:
-                PINS.setup(p,PINS.IN,pull_up_down=PINS.PUD_UP)
-                PINS.add_event_detect(p,PINS.BOTH,callback=self.switch_pressed_cb,bouncetime=50)
+            for i,p in enumerate(pins):
+                self.switches.append(Footswitch(p,i))    
             
     def display_select(self,idx):
         self.tca.writeRaw8(1<<idx)
@@ -134,7 +145,6 @@ class Controller:
     def redraw(self,switch):
         try:
             if linux and switch < len(self.oled_bus):
-                print(switch)
                 # Draw a black filled box to clear the image
                 self.draw.rectangle((0,0,self.width,self.height), outline=0, fill=0)
                 # Draw the bypass line
@@ -183,33 +193,24 @@ class Controller:
             self.redraw(n)
 
     def switch_pressed_cb(self,pin):
+        cur_state=PINS.input(pin)
         try:
             if self.init_done:
                 index=self.switch_pins.index(pin)
-                cur_state=PINS.input(pin)
+                print("switch",index,"state",cur_state)
                 # Check if last state was HIGH and current state is LOW (switch pressed)
-                if self._switch_state[index] and not cur_state:
-                    #print("Pressed switch",index+1,"on pin",pin)
-
+                if not cur_state:
                     # Toggle effect state
                     if self.pedal.patch.get_state(index=index):
                         if self.pedal.effect_off(self.pedal.patch.get_slot(index=index)):
                             self.pedal.patch.set_state(0,index=index)
-                            
                             # Draw state to display
                             self.redraw(index)
                     else:
                         if self.pedal.effect_on(self.pedal.patch.get_slot(index=index)):
                             self.pedal.patch.set_state(1,index=index)
-                            
                             # Draw state to display
                             self.redraw(index)
-                
-                self._switch_state[index]=cur_state
-                #self.refresh_model()
-            else:
-                pass
-                
         except:
             pass
             
@@ -247,7 +248,29 @@ if __name__=='__main__':
 
     controller.init_done=True
     
+    for s in controller.switches:
+        PINS.add_event_detect(s.pin,PINS.FALLING,callback=s.callback,bouncetime=100)
+    
     # Main loop
     while True:
-        if controller.pedal.task():
+        #Resolve queued tasks
+        while not q.empty():
+            try:
+                index=None
+                index=q.get_nowait()
+                if not index==None:
+                    controller.pedal.patch.toggle_effect(index=index)
+                    controller.redraw(index)
+            except:
+                pass
+
+        #Check pedal
+        res,data=controller.pedal.task()
+        if res:
             controller.refresh_model()
+        else:
+            if not data==None:
+                slot=data[0]
+                index=controller.pedal.patch.get_index(slot=slot)
+                controller.pedal.patch.states[index]=data[1]
+                controller.redraw(index)
