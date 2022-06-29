@@ -1,6 +1,8 @@
 # ZEROPEDAL
 Raspberry Pi Zero midi pedal controller for Zoom pedals. 
 
+[Demo video](https://www.youtube.com/watch?v=D9xH5quKueQ)
+
 The purpose of this project is to build an auxiliary pedal controller to be used with Zoom multi-effects processors like the G1XFour (tested with this model) and toggle individual effects on/off.
 
 This is a software and hardware project.
