@@ -13,12 +13,14 @@ The code is written in Python (tested on 3.7 and 3.9) and is largely based and i
 - 1 x Raspberry Pi Zero (mine is a zero w with a busted wifi chip)
 - 5 x SSD1306 0.91" oled displays
 - 1 x TC9548A
-- 5 x Foot switches
+- 5 x SPST momentary footswitches
 - 1 x female USB type A breakout board
 - 1 x female micro USB breakout board
-- 10 x 2.2kOhm resistor
+- 10 x 2.2kOhm resistor 
 - Some jumper wires
 - Some box or case (mine will be 3d printed and stl/3mf files will be uploaded) to contain everything (TODO)
+
+The RPi zero is the most expensive part, everything costs around US$ 1 or less on aliexpress
 
 ## DEPENDENCIES
 This project makes use of the following:
