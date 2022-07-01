@@ -12,6 +12,7 @@ The code is written in Python (tested on 3.7 and 3.9) and is largely based and i
 
 ## BILL OF MATERIALS
 - 1 x Raspberry Pi Zero (mine is a zero w with a busted wifi chip)
+- 1 x SD card 8GB or more
 - 5 x SSD1306 0.91" oled displays
 - 1 x TC9548A
 - 5 x SPST momentary footswitches
