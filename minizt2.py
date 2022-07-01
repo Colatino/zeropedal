@@ -10,11 +10,12 @@ class Effects:
             tempeffect={}
             tempeffect={"name":e[0],
                         "id":e[1],
-                        "filename":e[2],
-                        "nslots":e[3],
-                        "nparam":e[4],
+                        "group":e[2]
+                        "filename":e[3],
+                        "nslots":e[4],
+                        "nparam":e[5],
                         "params":[]}
-            for p in e[5]:
+            for p in e[6]:
                 tempparam={}
                 tempparam={"pedal":p[0],
                            "maxval":p[1],

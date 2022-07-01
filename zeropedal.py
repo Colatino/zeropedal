@@ -3,6 +3,7 @@ import math
 import sys
 import queue
 
+# Initialize the FIFO task queue
 q=queue.Queue()
 
 linux=False
@@ -18,14 +19,21 @@ from PIL import ImageFont
 
 from minizt2 import zoomzt2
 
+# Helper footswitch class
 class Footswitch:
     def __init__(self,pin,id):
+        # pin the footswitch is attached to
         self.pin=pin
+        # id of the footswitch, must be the same as its display
         self.id=id
+        # set the pin and activate its internal pullup resistor
         PINS.setup(pin,PINS.IN,pull_up_down=PINS.PUD_UP)
         
+    # Called when switch is pressed (interrupt routine)
+    # MUST be as short as possible
     def callback(self,pin):
         if not PINS.input(pin):
+            # Add a task to the queue to be resolved on the main loop
             q.put(self.id)
 
 class Controller:
@@ -81,13 +89,16 @@ class Controller:
             PINS.setmode(PINS.BCM)
             for i,p in enumerate(pins):
                 self.switches.append(Footswitch(p,i))    
-            
+    
+    # Select display idx bus on the multiplexer
     def display_select(self,idx):
         self.tca.writeRaw8(1<<idx)
     
+    # Deselect all displays
     def display_select_none(self):
         self.tca.writeRaw8(0)
         
+    # Draw a text, can be multiline up to 4 lines
     def draw_text(self,idx,text):
         try:
             if idx < len(self.oled_bus) and linux:
@@ -140,7 +151,8 @@ class Controller:
                 print(text)
         except:
             pass
-            
+     
+    # Main drawing method. Shows the effect name and bypass line behind (effect on) or in front (effect off)
     def redraw(self,switch):
         try:
             if linux and switch < len(self.oled_bus):
@@ -187,6 +199,8 @@ class Controller:
         except:
             return False
     
+    # Refresh pedal model with current patch information
+    # useful when editing the patch on the pedal while connected
     def refresh_model(self):
         for n in range(self.pedal.patch._n_effects):
             self.redraw(n)
@@ -199,6 +213,7 @@ if __name__=='__main__':
     # Buses on the multiplexer used to control the oled displays
     oled_bus=[6,5,4,3,2]
 
+    # Initialization info
     controller=Controller(switch_pins,oled_bus)
     loaded=time.perf_counter()
     controller.draw_text(0,"zeropedal v 0.1")
@@ -223,24 +238,35 @@ if __name__=='__main__':
 
     controller.init_done=True
     
+    # Attach an interrupt routine to each footswitch
     for s in controller.switches:
-        PINS.add_event_detect(s.pin,PINS.FALLING,callback=s.callback,bouncetime=100)
+        # Detects falling edge
+        detect=PINS.FALLING #other possible values PINS.RISING or PINS.BOTH
+        # Debounce time
+        debounce=100
+        # Attach routine
+        PINS.add_event_detect(s.pin,detect,callback=s.callback,bouncetime=debounce)
     
     # Main loop
     while True:
         try:
-            #Resolve queued tasks
+            # Resolve queued tasks
             while not q.empty():
                 index=None
+                # Pop a task (if any) from the q  
                 index=q.get_nowait()
                 if not index==None:
+                    # Toggle selected effect
                     controller.pedal.toggle_effect(index=index)
+                    # Redraw effect state
                     controller.redraw(index)
-            #Check pedal
+            # Check pedal for incoming messages
             res,data=controller.pedal.task()
             if res:
+                # Got a patch/bank change message
                 controller.refresh_model()
             else:
+                # Got a patch updated (effects changed) message
                 if not data==None:
                     slot=data[0]
                     index=controller.pedal.patch.get_index(slot=slot)
