@@ -30,6 +30,6 @@ This project makes use of the following:
 - [VCR OSD MONO font](https://www.dafont.com/vcr-osd-mono.font)  by [Riciery Leal](https://www.dafont.com/mrmanet.d5509)
 
 ### TODO list
--[] Design and print case
--[] Detect when pedal is unplugged
--[] Improve README
+- [ ] Design and print case
+- [ ] Detect when pedal is unplugged
+- [ ] Improve README
