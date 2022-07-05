@@ -36,4 +36,5 @@ This project makes use of the following:
 ### TODO list
 - [x] Design and print case
 - [ ] Detect when pedal is unplugged
+- [ ] Add tap tempo for delays
 - [ ] Improve README
