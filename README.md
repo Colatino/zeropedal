@@ -1,5 +1,7 @@
 # ZEROPEDAL
 Raspberry Pi Zero midi pedal controller for Zoom pedals. 
+![image](https://user-images.githubusercontent.com/80787901/177228578-d2fa5671-2584-4918-82bc-0962e622f850.png)
+
 
 The purpose of this project is to build an auxiliary pedal controller to be used with Zoom multi-effects processors like the G1XFour (tested with this model) and toggle individual effects on/off.
 
@@ -20,7 +22,7 @@ The code is written in Python (tested on 3.7 and 3.9) and is largely based and i
 - 1 x female micro USB breakout board
 - 10 x 2.2kOhm resistor 
 - Some jumper wires
-- Some box or case (mine will be 3d printed and stl/3mf files will be uploaded) to contain everything (TODO)
+- Some box or case to contain everything - mine is 3d printed and the files are available on the case folder
 
 The RPi zero is the most expensive part, everything costs around US$ 1 or less on aliexpress
 
@@ -31,6 +33,6 @@ This project makes use of the following:
 - [VCR OSD MONO font](https://www.dafont.com/vcr-osd-mono.font)  by [Riciery Leal](https://www.dafont.com/mrmanet.d5509)
 
 ### TODO list
-- [ ] Design and print case
+- [x] Design and print case
 - [ ] Detect when pedal is unplugged
 - [ ] Improve README
