@@ -9,8 +9,9 @@ This is a software and hardware project.
 
 The code is written in Python (tested on 3.7 and 3.9) and is largely based and inspired on [zoom-zt2](https://github.com/mungewell/zoom-zt2) and [ZoomPedalFun](https://github.com/shooking/ZoomPedalFun)
 
-# DEMO VIDEO
-[![Demo video](https://img.youtube.com/vi/D9xH5quKueQ/0.jpg)](https://www.youtube.com/watch?v=D9xH5quKueQ)
+# DEMO VIDEOS (no sound)
+[![Demo video 1](https://img.youtube.com/vi/D9xH5quKueQ/0.jpg)](https://www.youtube.com/watch?v=D9xH5quKueQ)
+[![Demo video 2](https://img.youtube.com/vi/8XPy8AvLA0o/0.jpg)](https://www.youtube.com/watch?v=8XPy8AvLA0o)
 
 ## BILL OF MATERIALS
 - 1 x Raspberry Pi Zero (mine is a zero w with a busted wifi chip)
