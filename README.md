@@ -1,4 +1,4 @@
-# ZEROPEDAL
+# ZEROPEDAL (Deprecated)
 Raspberry Pi Zero midi pedal controller for Zoom pedals. 
 ![image](https://user-images.githubusercontent.com/80787901/177228578-d2fa5671-2584-4918-82bc-0962e622f850.png)
 
@@ -35,6 +35,4 @@ This project makes use of the following:
 
 ### TODO list
 - [x] Design and print case
-- [ ] Detect when pedal is unplugged
-- [ ] Add tap tempo for delays
-- [ ] Improve README
+- [x] Detect when pedal is unplugged
